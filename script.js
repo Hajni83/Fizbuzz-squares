@@ -11,14 +11,13 @@ $(function(){
         x+=15;
         y+=15;
         if (i%3==0 && i%5==0){
-            context.fillStyle='red';
+            context.fillStyle='rgba(48, 254, 104, 0.8)';
         } else if(i%3==0){
-            console.log (i);
-            context.fillStyle='blue';
+            context.fillStyle='rgba(126,120,255,0.8)';
         } else if (i%5==0){
-            context.fillStyle='green';
+            context.fillStyle='rgba(250,252,99,0.8)';
         } else {
-            context.fillStyle='rgba(192,192,192,0.8)';
+            context.fillStyle='rgba(124,124,124,0.8)';
         }  
         context.fillRect(x,y,z,w);
     }   
